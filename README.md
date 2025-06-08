@@ -1,31 +1,25 @@
-# gamestop-stock-analysis
-# Tesla and GameStop Stock Analysis
+# Stock Data Analysis Project
 
-This project analyzes the stock data and revenue of Tesla (TSLA) and GameStop (GME) using Python. It includes:
+This notebook performs data extraction and analysis for Tesla (TSLA) and GameStop (GME) stocks using `yfinance` and web scraping techniques.
 
-- Downloading historical stock price data with yfinance
-- Web scraping quarterly and annual revenue data from websites
-- Data cleaning and preprocessing
-- Visualization of stock trends and revenue over time
+## Contents
 
-## Repository Structure
+- Downloading historical stock data using `yfinance`.
+- Extracting quarterly revenue data via web scraping.
+- Plotting stock price and revenue trends.
+- Exploratory data analysis of Tesla and GameStop stocks.
 
-- `notebooks/` - Jupyter notebooks with detailed analysis
-- `scripts/` - Python scripts for scraping and data processing
-- `data/` - Raw and processed data files
-- `requirements.txt` - Python dependencies
+## How to Run
 
-## Getting Started
+1. Ensure you have the required Python libraries installed:
+   - pandas
+   - yfinance
+   - matplotlib
+   - requests
+   - beautifulsoup4
 
-### Prerequisites
+2. Run all notebook cells sequentially.
 
-- Python 3.7+
-- Packages listed in `requirements.txt`
+## Author
 
-### Installation
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/yourusername/tesla-gamestop-stock-analysis.git
-   cd tesla-gamestop-stock-analysis
+Kanakshree 
